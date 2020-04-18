@@ -12,9 +12,9 @@ import {
 } from "reactstrap";
 
 const Char = (props) => {
-  console.log("Char Props", props.character);
+  // console.log("Char Props", props.character);
   let charProps = props.character;
-  console.log("charProps", charProps);
+  // console.log("charProps", charProps);
 
   return (
     <Col xs="6" md="4" xl="3">

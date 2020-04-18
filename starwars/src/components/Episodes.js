@@ -4,11 +4,11 @@ import { Container, Row } from "reactstrap";
 import EpiDesc from "./EpiDesc";
 
 const Episodes = (props) => {
-  console.log("episodeProps", props.episodes);
+  //console.log("episodeProps", props.episodes);
   const [episode, setEpisode] = useState([]);
 
   const episodeArr = props.episodes;
-  console.log("props episodeArr", episodeArr);
+  //console.log("props episodeArr", episodeArr);
   var response = [];
   useEffect(() => {
     axios
@@ -23,7 +23,7 @@ const Episodes = (props) => {
         console.log("the Episode data was not returned", error);
       });
   }, [episodeArr]);
-  console.log("this is episode data99999: ", episode);
+  // console.log("this is episode data99999: ", episode);
 
   return (
     <Container style={{ marginBottom: "1rem" }}>

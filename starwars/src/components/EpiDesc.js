@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 
 const Episodes = (props) => {
-  console.log("epidesc", props);
+  //console.log("epidesc", props);
   return (
     <Col xs="6" md="4" xl="3">
       <Card style={{ width: "15rem", margin: "1rem", height: "230px" }}>
