@@ -26,14 +26,14 @@ const Episodes = (props) => {
   console.log("this is episode data99999: ", episode);
 
   return (
-    <Container style={{ marginRight: "unset", marginBottom: "1rem" }}>
+    <Container style={{ marginBottom: "1rem" }}>
       <Row>
         {episode.map((el) => (
           <EpiDesc
-            key={el.id}
-            name={el.name}
-            airDate={el.air_date}
-            episode={el.episode}
+            key={el.data.id}
+            name={el.data.name}
+            airDate={el.data.air_date}
+            episode={el.data.episode}
           />
         ))}
       </Row>

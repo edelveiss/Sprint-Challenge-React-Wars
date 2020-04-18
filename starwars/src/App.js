@@ -11,8 +11,10 @@ const App = () => {
     <div className="App">
       <nav>
         <h1>Rick and Morty </h1>
-        <Link to="/" style={{ fontSize: "1.3rem" }}>
-          Home
+        <Link to="/">
+          <h2 style={{ fontSize: "2rem", textShadow: "2px 2px white" }}>
+            Home
+          </h2>
         </Link>
       </nav>
 
